@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/natristrap.css">
+    <style>
+        body
+        {
+            padding: 5%;
+            -webkit-transition: cubic-bezier(0.4, 0.0, 0.2, 1) .5s;
+            -moz-transition: cubic-bezier(0.4, 0.0, 0.2, 1) .5s;
+            -ms-transition: cubic-bezier(0.4, 0.0, 0.2, 1) .5s;
+            -o-transition: cubic-bezier(0.4, 0.0, 0.2, 1) .5s;
+            transition: cubic-bezier(0.4, 0.0, 0.2, 1) .5s;
+        }
+        h1
+        {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding: 15px;
+            text-transform: capitalize;
+        }
+    </style>
+    <script>
+        document.onload = new function () {
+            console.log("Hello! In here not have anything for you ;3 . We just use CSS and HTML! Some JS using for change theme if you want.");
+        };
+
+        function darkTheme()
+        {
+            document.getElementsByTagName("body")[0].classList.add("page-dark");
+            document.getElementsByTagName("body")[0].classList.remove("page-light");
+        }
+        function lightTheme()
+        {
+            document.getElementsByTagName("body")[0].classList.add("page-light");
+            document.getElementsByTagName("body")[0].classList.remove("page-dark");
+        }
+
+    </script>
+</head>
+<body class="page-light">
+    <div>
+        <h1>Themes</h1>
+        <a onclick="darkTheme();" class="btn">Dark Theme</a>
+        <a onclick="lightTheme();" class="btn">Light Theme</a>
+        <h1>This is page about Natristrap</h1>
+        <a class="btn">Buttons</a>
+        <a class="btn btn-deny">Deny</a>
+        <a class="btn btn-warning">Warning</a>
+        <a class="btn btn-accept">Accept</a>
+        <a class="btn btn-allow">Allow</a>
+        <a class="btn btn-disable">Disable</a>
+        <h1>Button Sizes</h1>
+        <a href="#" class="btn btn-l">Large</a>
+        <a href="#" class="btn btn-m">Medium</a>
+        <a href="#" class="btn btn-s">Small</a>
+        <a href="#" class="btn btn-li">Lite</a>
+        <h1>Forms</h1>
+        <div id="forms-layout">
+            <form class="form">
+                <div class="form-group">
+                    <label>Label:</label>
+                    <input class="input input-dark" placeholder="Input Dark">
+                </div>
+                <div class="form-group">
+                    <label>Label:</label>
+                    <input class="input input-light" placeholder="Input Light">
+                </div>
+                <div class="form-group">
+                    <a href="#" class="btn btn-allow btn-m">Login</a>
+                    <a href="#" class="btn btn-deny btn-m">Register</a>
+                </div>
+            </form>
+        </div>
+        <h1>Table</h1>
+
+        <table class="table table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Version</th>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Marshmallow</td>
+                <td>6.0</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Lolipop</td>
+                <td>5.0</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Jelly Bean</td>
+                <td>4.0</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ice Cream</td>
+                <td>3.0</td>
+            </tr>
+        </table>
+
+        <table class="table table-light">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Version
+                <th>Public</th>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Marshmallow</td>
+                <td>6.0</td>
+                <td>true</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Lolipop</td>
+                <td>5.0</td>
+                <td>true</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Jelly Bean</td>
+                <td>4.0</td>
+                <td>true</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ice Cream</td>
+                <td>3.0</td>
+                <td>true</td>
+            </tr>
+        </table>
+        <h1>Block Barrier</h1>
+        <span class="block-barrier block-barrier-dark">Display More Than! Dark</span>
+        <span class="block-barrier block-barrier-light">Display More Than! Light</span>
+        <h1>Code</h1>
+
+        <code class="code code-dark">
+            Dark Theme Using Code Tag
+        </code>
+        <br>
+        <code class="code code-light">
+            Light Theme Using Code Tag
+        </code>
+        <br>
+        <textarea class="code code-dark" name="Code" id="1" title="">Dark Theme Using TextArea Tag</textarea>
+        <br>
+        <textarea class="code code-light" name="Code" id="2" title="">Dark Theme Using TextArea Tag</textarea>
+
+        <h1 class="pos-center font-l">And more</h1>
+        <a class="block-barrier-trigger block-barrier-trigger-dark" href="index.html">Get more...</a>
+    </div>
+</body>
+</html>
