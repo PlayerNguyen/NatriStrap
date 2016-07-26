@@ -6,8 +6,8 @@ First, add this code to your file `<link rel="stylesheet" href="css/natristrap.c
 This easy to use this. Use _"class"_ in HTML to get class and more...
 Now on SNAPSHOT-1.0 Build 2 we've added class
 
-|Build|Class|Description|
-|-----------------------------|
+|Build| Class|Description|
+|-----|------|-----------|
 |1| `.btn` |Create custom button in this class| 
 |1| `.btn-deny` |Create button with <font color='ff514f'>red color</font>|
 |1| `.btn-allow` |Create button with <font color='36b5ff'>blue color</font>|
