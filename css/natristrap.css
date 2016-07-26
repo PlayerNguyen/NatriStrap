@@ -358,6 +358,8 @@ label
 .pos-center
 {
     text-align: center;
+    /*1.0 BUILD 2*/
+    display: block;
 }
 .dark
 {
@@ -418,3 +420,29 @@ label
 /*
 Ending NatriStrap version SNAPSHOT-1.0 Build 1
 */
+
+/*
+Start with new version SNAPSHOT-1.0 Build 2
+*/
+.list
+{
+    padding: 5px;
+}
+.list ul
+{
+    padding: 5px;
+}
+.list li
+{
+    list-style-type: none;
+    padding: 15px;
+}
+.link
+{
+    cursor: pointer;
+    background: transparent !important;
+}
+link:hover
+{
+    text-decoration: underline;
+}
