@@ -441,8 +441,71 @@ Start with new version SNAPSHOT-1.0 Build 2
 {
     cursor: pointer;
     background: transparent !important;
-}
-link:hover
-{
     text-decoration: underline;
+    -webkit-transition: cubic-bezier(0.4, 0.0, 0.2, 1) .5s;
+    -moz-transition: cubic-bezier(0.4, 0.0, 0.2, 1) .5s;
+    transition: cubic-bezier(0.4, 0.0, 0.2, 1) .5s;
 }
+.link:hover
+{
+    opacity: 0.7;
+}
+.italic
+{
+    font-style: italic;
+}
+.pos-right
+{
+    text-align: right;
+}
+.list-other-page
+{
+    display: inline-block;
+    width: 30%;
+}
+.super-big-500
+{
+    font-size: 500%;
+}
+.super-big-1000
+{font-size: 1000%}
+.super-big-200
+{font-size: 200%;}
+.super-big-700
+{font-size:700%;}
+.padding
+{
+    padding: 5%;
+}
+.padding-2x
+{
+    padding: 10%;
+}
+.page-no-margin
+{
+    margin: 0;
+    padding: 0;
+}
+.c-red
+{
+    background: #ff6347;
+    color: #ffffff;
+}
+.c-yellow
+{
+    background: #ffb52d;
+    color: #ffffff;
+}
+.c-green
+{
+    background: #3db46e;
+    color: #ffffff;
+}
+.c-blue
+{
+    background: #36b5ff;
+    color: #ffffff;
+}
+/*
+Ending version SNAPSHOT-1.0 Build 2
+*/
