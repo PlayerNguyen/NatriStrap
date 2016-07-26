@@ -19,6 +19,7 @@ input, textarea, button, div, a
 {
     outline: 0;
     resize: none;
+    transition: width;
 }
 .btn
 {
